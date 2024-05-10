@@ -1,4 +1,5 @@
 import image from '../../assets/farmacia.png';
+import ListarCategorias from '../../components/Categorias/ListarCategorias/ListarCategorias';
 
 function Home(){
     return (
@@ -16,6 +17,7 @@ function Home(){
                     </div>
                 </div>
            </div>
+           <ListarCategorias />
         </>
     )
 }
