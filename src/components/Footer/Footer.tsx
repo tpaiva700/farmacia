@@ -3,16 +3,15 @@ import { FacebookLogo, InstagramLogo, LinkedinLogo } from "@phosphor-icons/react
 function Footer(){
     return (
     <>
-        <div className="flex justify-center bg-green-950 text-white">
-            <div>
+        <div className="flex justify-center bg-green-950 text-white absolute w-full -bottom-1">
+            <div className="container flex flex-col items-center py-4">
                 <p className='text-xl font-bold'>Farmacia | Copyright: </p>
                 <p className='text-lg'>Acesse nossas redes sociais</p>
-            </div>
-            <div>
-                <LinkedinLogo size={48} weight='bold'/>
-                <InstagramLogo size={48} weight='bold' />
-                <FacebookLogo size={48} weight='bold' />
-
+                <div className="flex gap-2">
+                    <LinkedinLogo size={48} weight='bold'/>
+                    <InstagramLogo size={48} weight='bold' />
+                    <FacebookLogo size={48} weight='bold' />
+                </div>
             </div>
         </div>
     </>
